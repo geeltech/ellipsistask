@@ -1,0 +1,563 @@
+*body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*--------Navigation----------*/
+#header{
+    background: #fff; 
+    position: sticky;
+	top: 0;
+	z-index: 10;  
+    border-bottom: 0.5px solid #efefef;
+}
+#header .navbar-brand img{
+    width: 300px;
+    height: 80px;
+}
+#header .navbar-nav{
+    border-top: 1px solid #efefef;
+}
+#header .navbar-nav li a{
+    font-size: 15px;
+    text-align: center;
+    color: #00381f!important;
+}
+.navbar-nav li a:hover{
+    color: #673604!important;
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.navbar-toggler-icon{
+    color: #00381f!important;
+    font-size: 20px;
+}
+/*----------Slide show------------*/
+#carouselExampleFade .carousel-item .welcome{
+    padding: 10px 15px;
+    text-align: center;
+}
+#carouselExampleFade .carousel-item img{
+    width: 100%;
+    height: 70vh;
+}
+#carouselExampleFade .carousel-item .welcome h5{
+    font-size: 45px;
+    color: #fff;
+}
+#carouselExampleFade .carousel-item a{
+    margin-top: 5px;
+    font-size: 13px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #00381f;
+}
+#carouselExampleFade .carousel-item a:hover{
+    background: #fff;
+    color: #673604;
+}
+#carouselExampleFade .carousel-item a:focus{
+    box-shadow: none;
+}
+
+/*--------Bottom lines--------*/
+#line-bottom{
+    margin-top: 5px;
+    padding: 10px;
+}
+#line-bottom .line span{
+    margin: 4px;
+}
+.line .line-1{
+    width: 25px;
+    height: 7px;
+    background: #00381f;
+    display: inline-block;
+}
+.line .line-2{
+    width: 50px;
+    height: 7px;
+    background: #673604;
+    display: inline-block;
+}
+.line .line-3{
+    width: 100px;
+    height: 7px;
+    background: #666666;
+    display: inline-block;
+}
+/*-------------About---------------*/
+#about{
+    padding: 30px 0px;
+}
+#about h1{
+    color: #00381f;
+    text-align: center;
+    margin-bottom:40px;
+}
+#about p, #about p li{
+    text-align: justify;
+}
+#about .about-top img{
+    width: 100%;
+    height: 300px;
+}
+#about .about-bottom{
+    color: #666666;
+    margin-top: 80px;
+}
+#about .about-bottom .col-md-4{
+    padding: 0px 20px;
+}
+#about .about-bottom .icon i{
+    font-size: 70px;
+    color: #efefef;
+}
+#about h3{
+    padding-bottom: 10px;
+}
+#about .row a{
+    text-decoration: none;
+}
+#about .row a:hover{
+    color: #673604;
+}
+
+/*----------Servives-------------*/
+#page-wrapper{
+    background: #efefef;
+    padding: 80px 0;
+}
+#page-wrapper h1{
+    margin-bottom: 40px;
+    color: #00381f;
+    text-align: center;
+}
+#page-wrapper .post-slider{
+	position: relative;
+}
+#page-wrapper .post-slider .next{
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	cursor: pointer;
+	cursor:pointer;
+	border: 1px solid #666666;
+	border-radius: 50%;
+	padding: 7px;
+	font-size: 1.7em;
+	color: #00381f;
+}
+#page-wrapper .post-slider .prev{
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	cursor:pointer;
+	border: 1px solid #666666;
+	border-radius: 50%;
+	padding: 7px;
+	font-size: 1.7em;
+	color: #00381f;
+}
+#page-wrapper .post-slider .post-wrapper{
+	width: 84%;
+	height: 350px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 10px 0px 10px 0px;
+}
+#page-wrapper .page-wrapper a:hover{
+	color: #673604;
+}
+#page-wrapper .post-slider .post-wrapper .post{
+    background: #fff;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding: 5px;
+    margin: 20px;
+	width: 350px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 5px;
+}
+#page-wrapper .post-slider .post-wrapper .post .post-info{
+	margin: 5px;
+	padding: 0px 5px;
+	height: 120px;
+	color: inherit;
+}
+#page-wrapper .post-slider .post-wrapper .post p a{
+	text-decoration: none;
+    text-align: left;
+
+}
+#page-wrapper .post-slider .post-wrapper .post p a:hover{
+    color: #673604;
+}
+#page-wrapper .post-slider .post-wrapper .post .post-info h4{
+    color: #00381f;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+#page-wrapper .post-slider .post-wrapper .post .slider-image{
+	width: 100%;
+	height: 200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+/* ---------secretarial-------- */
+#secretarial-service{
+    padding: 30px 0;
+}
+#secretarial-service .leftbar-box{
+    text-align:justify;
+}
+#secretarial-service h3{
+    color:#00381f;
+    margin:5px 0; 
+}
+#secretarial-service .leftbar-box p{
+    font-size: 17px;
+}
+#secretarial-service .rightbar-box h3{
+    color:#666666;
+    margin:20px;
+}
+#secretarial-service .rightbar-box p a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#secretarial-service .rightbar-box p a:hover{
+    color: #673604;
+    transition: 1.0s;
+    margin-left: 32px;
+}
+/*------software solutions-----*/
+#software-solutions{
+    padding: 30px 0;
+}
+#software-solutions .leftbar-box{
+    text-align:justify;
+}
+#software-solutions .leftbar-box h3{
+    color:#00381f;
+    margin:5px 0; 
+}
+#software-solutions .leftbar-box p{
+    font-size: 17px;
+    text-align: justify;
+}
+#software-solutions .rightbar-box h3{
+    color:#666666;
+    margin:20px;
+}
+#software-solutions .rightbar-box p a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#software-solutions .rightbar-box p a:hover{
+    color: #673604;
+    transition: 1.0s;
+    margin-left: 32px;
+}
+
+
+/*-----agribusiness----*/
+/*-------dairy--------*/
+#dairy{
+    padding: 30px 0;
+}
+#dairy .leftbar-box{
+    text-align:justify;
+}
+#dairy .leftbar-box h3{
+    color:#00381f;
+    margin:5px 0; 
+}
+#dairy .leftbar-box p{
+    font-size: 17px;
+}
+#dairy .rightbar-box h3{
+    color:#666666;
+    margin:20px;
+}
+#dairy .rightbar-box p a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#dairy .rightbar-box p a:hover{
+    color: #673604;
+    transition: 1.0s;
+    margin-left: 32px;
+}
+
+/*-------home cook master-----*/
+/*-------poultry farm------*/
+/*--------furniture-----*/
+
+
+
+
+
+
+
+
+
+
+
+/*----------Partners-----------*/
+#partners{
+    padding: 80px 0;
+}
+#partners .col-md-4{
+    padding: 10px 30px;
+}
+#partners img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: -40px 0 30px -30px;
+}
+#partners .review{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+#partners .review .fa-twitter{
+    font-size: 18px;
+    padding: 5px;
+    color: #00381f;
+}
+#partners a{
+    color: #00381f;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+#partners h1{
+    margin-bottom: 50px;
+    color: #00381f;
+    text-align: center;
+}
+#partners p{
+    padding-bottom: 30px;
+    text-align: justify;
+}
+/*-----Our News-----*/
+#our-news{
+    padding: 80px 0px;
+    margin: 0px;
+}
+#our-news h1{
+    margin-bottom:40px;
+    color:#00381f;
+    text-align:center;
+}
+#our-news .row{
+    height: 50vh;
+    margin-top: 40px;
+}
+#our-news .row h5{
+    font-size: 20px;
+    line-height: 45px;
+}
+#our-news .row a{
+    line-height: 38px;
+    text-align: start;
+    padding: 20px auto;
+}
+/*-------Contact-------*/
+/* #contact{
+    margin: 0px;
+    padding:80px 0px 20px;
+}
+#contact p{
+    color: #666666;
+    text-align: center;
+}
+#contact h1{
+    padding-bottom:40px;
+    color:#00381f;
+    text-align:center;
+}
+#contact .row iframe{
+    width: 100%;
+    height: 80vh;
+    border-radius: 30px;
+    margin: 2px 1px 1px;
+}  */
+/*--------Footer---------*/
+#footer{
+    margin: 0px;
+    padding: 40px 50px 20px;
+    background: #efefef;
+}
+#footer img{
+    width: 60px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1{
+    font-size: 18px;
+    text-align: left;
+    margin: 25px 0;
+    color: #00381f;
+}
+#footer p, #footer p a{
+    color: #333;
+    font-size: 14px;
+    text-align: justify;
+    text-decoration: none;
+}
+#footer p a:hover{
+    color: #673604;
+}
+#footer .city{
+    margin-left: 37px;
+}
+#footer .fa{
+    padding-right: 15px;
+}
+#footer .form-group{
+width: 400px;
+max-width: 90%;
+position: relative;
+} 
+#footer input{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #333;
+}
+#footer textarea{
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    border: 1px solid #333;
+}
+#footer .btn-contact{
+    margin-top: 5px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 1px solid #333;
+    color: #fff;
+    background-color: #00381f;
+}
+#footer .btn-contact:hover{
+    color: #fff;
+    background: #673604;
+}
+#footer .btn-contact:focus{
+    box-shadow: none;
+}
+#footer .fa-heart-o{
+    color: #ff0000;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/*-------media query for medium tablet devices ----*/
+@media only screen and (max-width: 770px){
+	.post-slider .next{
+	right: 10px;
+	padding: 5px;
+	font-size: 1.0em;
+	}
+	.post-slider .prev{
+	left: 10px;
+	padding: 5px;
+	font-size: 1.0em;
+	}
+    #page-wrapper .post-slider .post-wrapper .post .slider-image{
+        width: 100%;
+        height: 150px;
+    }
+
+    /*--Slide show--*/
+    #carouselExampleFade .carousel-item img{
+        width: 100%;
+        height: 45vh;
+    }
+    #carouselExampleFade .carousel-item .welcome h5{
+        font-size: 40px;
+        color: #fff;
+    }
+
+}
+/*-------media query for small devices ----*/
+@media only screen and (max-width: 479px){
+	.post-slider .next{
+	right: 10px;
+	border-radius: 50%;
+	padding: 5px;
+	font-size: 1.0em;
+	}
+	.post-slider .prev{
+	left: 10px;
+	border-radius: 50%;
+	padding: 5px;
+	font-size: 1.0em;
+	}
+    #page-wrapper .post-slider .post-wrapper .post{
+        margin: 20px;
+    }
+    #page-wrapper .post-slider .post-wrapper .post .slider-image{
+        width: 100%;
+        height: 200px;
+    }
+
+    /*--Slide show--*/
+    #carouselExampleFade .carousel-item img{
+        width: 100%;
+        height: 28vh;
+    }
+    #carouselExampleFade .carousel-item .welcome h5{
+        font-size: 35px;
+        color: #fff;
+    }
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------media query for small devices ----*/
+@media only screen and (max-width: 400px){
+
+
+
+
+} 
+
